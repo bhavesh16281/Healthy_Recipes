@@ -1,54 +1,30 @@
-/* Reset some default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: Helvetica, sans-serif;
 }
-
-/* Set default font and background for the body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
+img{
+    height: 150px;
+}
+.main-p1{
+    font-size: 20x;
+}
+.header-h1{
+    /* font-size: 2em; */
     color: #333;
-    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
 }
-
-/* Utility classes */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.main-p2{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
-
-.hidden {
-    display: none;
+.ingredients-list{
+    list-style-type: square;
+    font-size: 1.2em;
 }
-
-.text-center {
-    text-align: center;
-}
-
-/* Basic styling for links */
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Basic button styling */
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0056b3;
+.Preperation-time{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:gray ;
 }
